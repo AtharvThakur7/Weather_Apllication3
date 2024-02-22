@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__, static_folder='static' , template_folder='templates')
 
 # route to the Homepage
-@app.route('/page')
+@app.route('/')
 def homepage():
     try :
         return render_template("index.html")
@@ -30,6 +30,6 @@ def Get_Weather_Data():
 
 if __name__ == "__main__":
     try :
-        app.run(debug=True)
+        app.run(host='0.0.0.0' ,port = 5002)
     except Exception as e :
         log.error(e)    

@@ -1,0 +1,26 @@
+2024-02-22 21:31:27,414 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-22 21:31:27,414 INFO [33mPress CTRL+C to quit[0m
+2024-02-22 21:31:27,414 INFO  * Restarting with stat
+2024-02-22 21:31:27,831 WARNING  * Debugger is active!
+2024-02-22 21:31:27,847 INFO  * Debugger PIN: 137-050-013
+2024-02-22 21:31:50,966 INFO  * Detected change in 'c:\\Users\\athar\\OneDrive\\Desktop\\Weather_Apllication3\\app.py', reloading
+2024-02-22 21:31:51,045 INFO  * Restarting with stat
+2024-02-22 21:31:51,476 WARNING  * Debugger is active!
+2024-02-22 21:31:51,481 INFO  * Debugger PIN: 137-050-013
+2024-02-22 21:32:01,718 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.131:5000
+2024-02-22 21:32:01,718 INFO [33mPress CTRL+C to quit[0m
+2024-02-22 21:32:01,718 INFO  * Restarting with stat
+2024-02-22 21:32:02,203 WARNING  * Debugger is active!
+2024-02-22 21:32:02,212 INFO  * Debugger PIN: 137-050-013
+2024-02-22 21:32:44,105 INFO 127.0.0.1 - - [22/Feb/2024 21:32:44] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-22 21:32:45,133 INFO 127.0.0.1 - - [22/Feb/2024 21:32:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-22 21:33:13,759 INFO 127.0.0.1 - - [22/Feb/2024 21:33:13] "[33mGET /hello HTTP/1.1[0m" 404 -
+2024-02-22 21:33:18,092 INFO 127.0.0.1 - - [22/Feb/2024 21:33:18] "GET /page HTTP/1.1" 200 -
+2024-02-22 21:33:18,158 INFO 127.0.0.1 - - [22/Feb/2024 21:33:18] "GET /static/styles.css HTTP/1.1" 200 -
+2024-02-22 21:33:22,861 INFO 127.0.0.1 - - [22/Feb/2024 21:33:22] "POST /weatherapp HTTP/1.1" 200 -
+2024-02-22 21:35:05,200 INFO  * Detected change in 'c:\\Users\\athar\\OneDrive\\Desktop\\Weather_Apllication3\\app.py', reloading
+2024-02-22 21:35:05,273 INFO  * Restarting with stat
