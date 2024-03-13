@@ -1,4 +1,5 @@
 import logging as log
+import pandas as pd
 log.basicConfig(filename="Weather_App.log" , level=log.INFO , format='%(asctime)s %(levelname)s %(message)s')
 from flask import Flask, request, render_template, url_for
 import requests
@@ -24,7 +25,8 @@ def Get_Weather_Data():
         }
         result = requests.get(url, params=param)
         data = result.json()
-        return data
+
+        return pd.DataFrame(data)
     except Exception as e :
         log.error(e)
 
