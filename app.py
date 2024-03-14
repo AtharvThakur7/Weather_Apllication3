@@ -25,8 +25,9 @@ def Get_Weather_Data():
         }
         result = requests.get(url, params=param)
         data = result.json()
+        frame = pd.DataFrame(result.json())
 
-        return pd.DataFrame(data)
+        return frame
     except Exception as e :
         log.error(e)
 
