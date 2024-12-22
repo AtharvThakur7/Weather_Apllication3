@@ -8,7 +8,7 @@ Fetch real-time weather data using the OpenWeatherMap API.
 Display weather information in a JSON format (can be extended to display on a webpage).
 Logging of errors to a log file for easier debugging and monitoring.
 
-# Requiremen
+# Requirement
 Python 3.x
 Flask
 Requests
