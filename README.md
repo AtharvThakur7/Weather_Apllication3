@@ -6,7 +6,7 @@ This project is a simple Weather App built using Flask and the OpenWeatherMap AP
 # project Structure 
 
 
-![alt image]()
+![alt image](https://github.com/AtharvThakur7/Weather_Apllication3/blob/596ebcad76a83eae9a9bae1e60d826e724f3e73d/Screenshot%202024-12-28%20234016.png)
 
 # Features
 Get current weather information by entering a city name.
