@@ -2,6 +2,12 @@
 
 This project is a simple Weather App built using Flask and the OpenWeatherMap API. The application allows users to input a city name and retrieve current weather information, such as temperature, humidity, and other related weather data in metric units.
 
+
+# project Structure 
+
+
+![alt image]()
+
 # Features
 Get current weather information by entering a city name.
 Fetch real-time weather data using the OpenWeatherMap API.
