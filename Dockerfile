@@ -17,6 +17,7 @@ ENV FLASK_ENV=production
 
 # Expose port 5001 (same as in your Flask app)
 EXPOSE 5001
+# EXPOSE 6000
 
 # Set the environment variable to avoid Python buffering
 # ENV PYTHONUNBUFFERED 1
